@@ -26,3 +26,30 @@
     color: #fff;
     font-weight: 500px;
 }
+
+/* xs */
+.navbar-brand img {
+    width: 45px;
+    height: auto;
+}
+/* sm */
+@media (min-width: 768px) {
+    .navbar-brand img {
+        width: 91px;
+        height: 90px;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    .navbar-brand img {
+        width: 91px;
+        height: 90px;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    .navbar-brand img {
+        width: 91px;
+        height: 90px;
+    }
+}
