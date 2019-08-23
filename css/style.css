@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.mainNav {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.download-btn {
+    color: #000;
+    background: #00c9b7;
+    border: none;
+    box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+}
+.thumb {
+    display:table-cell; 
+    vertical-align:middle; 
+    text-align:center;
+
+}
+.thumb img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.cta-content h3 {
+    color: #fff;
+    font-weight: 500px;
+}
