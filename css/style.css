@@ -25,6 +25,7 @@
 .cta-content h3 {
     color: #fff;
     font-weight: 500px;
+    /* line-height: 50px; */
 }
 
 /* xs */
@@ -35,25 +36,34 @@
 /* sm */
 @media (min-width: 768px) {
     .navbar-brand img {
-        width: 91px;
-        height: 90px;
+        width: 61px;
+        height: 60px;
     }
 }
 /* md */
 @media (min-width: 992px) {
     .navbar-brand img {
-        width: 91px;
-        height: 90px;
+        width: 61px;
+        height: 60px;
     }
 }
 /* lg */
 @media (min-width: 1200px) {
     .navbar-brand img {
-        width: 91px;
-        height: 90px;
+        width: 61px;
+        height: 60px;
     }
 }
 
 .reduce {
-margin-top : -80px;
+    margin-top : -80px;
+}
+.features {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.feature-item {
+    color: #fff;
+}
+.text-muted {
+    color: #fff !important;
 }
